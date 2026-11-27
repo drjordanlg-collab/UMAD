@@ -12,7 +12,7 @@
 
 /* 2. Tipografía oficial de Ubuntu */
 body {
-  background-color: #F7F7F7;
+  background-color: linear-gradient(160deg, #300A24 0%, #5E2750 100%);
   font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 14px;
   line-height: 1.7;
@@ -206,7 +206,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 * {
   box-sizing: border-box;
 }
-.markdown-body{
+.markdown-body{background-color: #F7F7F7;
  /* El marco y su redondeo */
   border: 3px solid #FF8E66;
   border-radius: 24px;
