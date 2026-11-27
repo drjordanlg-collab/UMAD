@@ -18,3 +18,16 @@ Entonces, ¿qué voy a hacer diferente este próximo año? Mi apuesta para 2027 
 • **La construcción colectiva (dentro del aula):** El tiempo en clase dejará de ser un monólogo. Lo vamos a aprovechar para hacer preguntas orales, debatir lo que investigaron, resolver dudas y ordenar entre todos las ideas para construir un conocimiento común y sólido.
 
 • **Evidencia real (hacia el mundo profesional):** Todo ese aprendizaje, junto con sus prácticas y proyectos, no se va a quedar en una libreta olvidada. Lo van a documentar y subir a GitHub. Así, desde la carrera, empezarán a construir un portafolio de trabajo real que respalde lo que saben hacer.
+
+## Flujo de trabajo de la nueva propuesta
+### El trabajo previo (fuera del aula)
+**Preparación en clase**
+- Al inicio será una clase tradicional para tener un fundamento Teórico fuerte.
+- Se darán los conceptos básicos que les permitan entender a los alumnos lo que van a investigar.
+- También tendrán el material básico de investigación como documentos del CIC UMAD y algún otro material confiable.
+- Se indicarán los puntos específicos que deberán conocer, objetivos de aprendizaje, etc. Para que tengan la información necesaria para poder hacer un prompt adecuado para su trabajo de casa.
+  
+**Trabajo de casa**
+  - Usarán la IA que ofrece EBSCO o El Libro para buscar y resumir la información.
+  - Toda la información recolectada se usará para alimentar alguna libreta de Gemini NoteBook (IA).
+  - Los recursos generados por Google Gemini será el material de estudio del alumno, el cual podrá compartir con sus compañeros.
