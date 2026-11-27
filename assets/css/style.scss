@@ -1,0 +1,176 @@
+---
+---
+
+@import "{{ site.theme }}";
+@import url('https://googleapis.com');
+
+/* 1. Amplía el contenedor principal */
+.wrapper {
+  width: 1140px;
+  max-width: 92%;
+}
+
+/* 2. Tipografía oficial de Ubuntu */
+body {
+  background-color: #F7F7F7;
+  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16.5px;
+  line-height: 1.7;
+  color: #333333;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  color: #300A24; /* Berenjena oscuro Ubuntu */
+  letter-spacing: -0.02em;
+}
+
+h1 { font-size: 2rem; }
+h3 { font-size: 1.35rem; margin-top: 1.8rem; }
+
+code, pre {
+  font-family: 'Fira Code', monospace;
+  font-size: 0.9em;
+}
+
+/* 3. Barra lateral izquierda estilo Ubuntu */
+header {
+  width: 280px;
+  background: linear-gradient(160deg, #300A24 0%, #5E2750 100%);
+  color: #F7F7F7;
+  padding: 30px 25px;
+  border-radius: 12px;
+  border-top: 5px solid #E95420; /* Acento naranja Ubuntu */
+  box-shadow: 0 8px 20px rgba(48, 10, 36, 0.2);
+  box-sizing: border-box;
+}
+
+header h1 a,
+header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #FF8E66;
+}
+
+header img {
+  border-radius: 50%;
+  border: 3px solid #E95420;
+  margin-bottom: 15px;
+}
+
+/* 4. Columna derecha */
+section {
+  width: 780px;
+  background-color: #ffffff;
+  padding: 35px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+  box-sizing: border-box;
+}
+
+/* 5. Ajuste automático para celulares y pantallas pequeñas */
+@media print, screen and (max-width: 1060px) {
+  .wrapper {
+    width: auto;
+  }
+  header, section {
+    float: none;
+    position: static;
+    width: auto;
+    max-width: 100%;
+  }
+  header {
+    margin-bottom: 30px;
+  }
+}
+
+/* 6. Estilo moderno para la tabla de materias */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0 30px 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(48, 10, 36, 0.08);
+}
+
+/* Encabezado de la tabla a juego con la barra izquierda */
+th {
+  background-color: #300A24;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: left;
+  padding: 14px 16px;
+  border-bottom: 3px solid #E95420;
+}
+
+/* Celdas del cuerpo de la tabla */
+td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+/* Color suave alternado en las filas (efecto cebra) */
+tbody tr:nth-child(even) {
+  background-color: #FAF8F9;
+}
+
+/* Resaltado interactivo al pasar el mouse sobre una materia */
+tbody tr:hover {
+  background-color: #F5EBF1;
+  transition: background-color 0.2s ease;
+}
+
+/* Convierte los enlaces de la última columna en botones naranja Ubuntu */
+td:last-child a {
+  display: inline-block;
+  background-color: #E95420;
+  color: #ffffff;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+}
+
+td:last-child a:hover {
+  background-color: #C74112;
+  color: #ffffff;
+}
+
+footer { display: none; }
+
+/* --- DISEÑO AUTOMÁTICO PARA ENTRADAS DE BLOG --- */
+.blog-post {
+  max-width: 740px;      /* Hace que el texto no se extienda por toda la pantalla */
+  margin: 40px auto;     /* Centra todo el contenido */
+  padding: 0 20px;
+
+  h1 {
+    color: #300A24;      /* Tu color Berenjena oscuro */
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+
+  .entry-content {
+    font-size: 17.5px;
+    line-height: 1.8;
+    color: #333333;      /* Gris oscuro para que no canse la vista al leer */
+
+    /* Si pones un enlace en tu texto, se pintará de color naranja Ubuntu */
+    a {
+      color: #E95420;    
+      text-decoration: none;
+      font-weight: bold;
+      &:hover {
+        color: #C74112;
+      }
+    }
+  }
+}
