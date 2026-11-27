@@ -1,0 +1,35 @@
+---
+layout: default
+title: "Portafolio y Propuesta Educativa UMAD"
+---
+
+<main class="blog-post">
+  <header class="blog-home-header">
+    <h1>{{ page.title }}</h1>
+    <p class="subtitle">Cambio de Paradigmas en la Enseñanza de la Ingeniería (2027)</p>
+  </header>
+
+  <section class="entry-content">
+    <h2>Bitácora de Reflexiones y Apuntes</h2>
+    <p>Bienvenidos a este espacio de construcción educativa. A continuación se muestran las publicaciones y propuestas disponibles:</p>
+    
+    <!-- Este bloque busca automáticamente todos los archivos dentro de la carpeta _posts -->
+    <ul class="posts-list" style="list-style: none; padding: 0; margin-top: 20px;">
+      {% for post in site.posts %}
+        <li style="margin-bottom: 25px; padding-bottom: 15px; border-bottom: 1px solid #EAEAEA;">
+          <span class="post-date" style="font-size: 0.9rem; color: #666666; display: block;">
+            {{ post.date | date: "%d/%m/%Y" }}
+          </span>
+          <a href="{{ post.url | relative_url }}" style="font-size: 1.3rem; color: #E95420; text-decoration: none; font-weight: bold;">
+            {{ post.title }}
+          </a>
+          {% if post.excerpt %}
+            <p style="margin: 5px 0 0 0; color: #555555; font-size: 0.95rem;">
+              {{ post.excerpt | strip_html | truncatewords: 25 }}
+            </p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+</main>
