@@ -19,7 +19,15 @@ body {
   color: #333333;
 }
 
-h1, h2, h3, h4 {
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  color: white;
+  background-color: #300A24; /* Berenjena oscuro Ubuntu */
+  letter-spacing: -0.02em;
+}
+
+h2, h3, h4 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   color: #300A24; /* Berenjena oscuro Ubuntu */
