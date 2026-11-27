@@ -1,18 +1,20 @@
 ---
 layout: post
-title: "Cambio de Paradigmas en la Enseñanza de la Ingeniería"
----
-
-# Cambio de Paradigmas en la Enseñanza de la Ingeniería <br> Propuesta educativa 2027
+title: "Cambio de Paradigmas en la Enseñanza de la Ingeniería <br> Propuesta educativa 2027"
+--- 
 ## Introducción
-Es muy fácil quejarse de que los alumnos ya no tienen la misma capacidad de reflexión y concentración en clase; y es cierto, pero, es una realidad que no podemos cambiar con quejas o con preocupación.
+Es muy fácil caer en la queja de que los alumnos de hoy ya no tienen la misma capacidad de reflexión o concentración en clase. Y aunque en parte sea cierto, es una realidad que no va a cambiar con lamentos ni con preocupación.
 
-Lo que antes de pandemia me funcionaba, ya no funciona de igual manera, ¿qué cambios en mi docencia debo hacer?
+Lo que me funcionaba antes de la pandemia hoy simplemente ya no da los mismos resultados. Y ante eso, la única pregunta válida es: ¿qué cambios debo hacer yo en mi docencia?
 
-Pensando en esto, y con algunas actividades, me di cuenta que trabajan mucho mejor fuera del salón de clases que dentro de él. Entonces, no es que antes haya sido mejor que ahora, simplemente que es distinto y al ser distinto la docencia debe ser distinta.
+Observando a mis grupos y probando distintas dinámicas, me di cuenta de algo clave: mis estudiantes trabajan mucho mejor fuera del salón de clases que dentro de él. Entendí entonces que el "antes" no era necesariamente mejor que el "ahora", simplemente era distinto. Y si el escenario cambió, mi forma de enseñar también tiene que cambiar.
 
-No podemos exigirle a los alumnos que aprendan de la misma manera que se hizo en un mundo con un contexto totalmente distinto al que están viviendo.
+No podemos exigirles que aprendan de la misma manera en que lo hicimos nosotros, en un mundo con reglas completamente diferentes. El contexto de mis años universitarios no se parece en nada al suyo; basta con ver el impacto de la inteligencia artificial y la velocidad con la que está transformando nuestra profesión.
 
-El contexto en mis años universitarios era muy distinto al que ellos tienen ahora, tan sólo hay que ver las tecnologías como la IA, y los cambios que han realizado en el mundo en muy poco tiempo. 
+Entonces, ¿qué voy a hacer diferente este próximo año? Mi apuesta para 2027 es dar el salto hacia un modelo de salón invertido adaptado a su realidad:
 
-Entonces, ¿qué propuestas o cambios pueden realizarse?
+• **El trabajo previo (fuera del aula):** Yo les daré la base teórica esencial, pero el reto será suyo. Quiero que usen las herramientas que tienen a la mano —como la IA, documentación oficial y recursos en red— para investigar y construir sus propias herramientas de estudio antes de vernos.
+
+• **La construcción colectiva (dentro del aula):** El tiempo en clase dejará de ser un monólogo. Lo vamos a aprovechar para hacer preguntas orales, debatir lo que investigaron, resolver dudas y ordenar entre todos las ideas para construir un conocimiento común y sólido.
+
+• **Evidencia real (hacia el mundo profesional):** Todo ese aprendizaje, junto con sus prácticas y proyectos, no se va a quedar en una libreta olvidada. Lo van a documentar y subir a GitHub. Así, desde la carrera, empezarán a construir un portafolio de trabajo real que respalde lo que saben hacer.
