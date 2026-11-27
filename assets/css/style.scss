@@ -17,6 +17,22 @@ body {
   font-size: 20px;
   line-height: 1.7;
   color: #333333;
+
+  /* El marco y su redondeo */
+  border: 6px solid #38bdf8;
+  border-radius: 24px;
+  
+  /* Espacio exterior para que se noten las esquinas redondeadas */
+  margin: 16px; 
+  
+  /* Hace que el marco ocupe al menos toda la altura de la pantalla */
+  min-height: calc(100vh - 32px); 
+  
+  /* Evita que el borde o padding sumen tamaño extra y generen scroll horizontal */
+  box-sizing: border-box; 
+  
+  /* Evita que el contenido interno sobresalga de las esquinas curvas */
+  overflow-x: hidden; 
 }
 
 /* Título principal estilo Ubuntu (para páginas y entradas) */
