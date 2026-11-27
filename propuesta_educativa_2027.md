@@ -13,14 +13,14 @@ No podemos exigirles que aprendan de la misma manera en que lo hicimos nosotros,
 
 Entonces, ¿qué voy a hacer diferente este próximo año? Mi apuesta para 2027 es dar el salto hacia un modelo de salón invertido adaptado a su realidad:
 
-• **El trabajo previo (fuera del aula):** Yo les daré la base teórica esencial, pero el reto será suyo. Quiero que usen las herramientas que tienen a la mano —como la IA, documentación oficial y recursos en red— para investigar y construir sus propias herramientas de estudio antes de vernos.
+• **El trabajo previo (dentro y fuera del aula):** Yo les daré la base teórica esencial, pero el reto será suyo. Quiero que usen las herramientas que tienen a la mano —como la IA, documentación oficial y recursos en red— para investigar y construir sus propias herramientas de estudio antes de vernos.
 
 • **La construcción colectiva (dentro del aula):** El tiempo en clase dejará de ser un monólogo. Lo vamos a aprovechar para hacer preguntas orales, debatir lo que investigaron, resolver dudas y ordenar entre todos las ideas para construir un conocimiento común y sólido.
 
 • **Evidencia real (hacia el mundo profesional):** Todo ese aprendizaje, junto con sus prácticas y proyectos, no se va a quedar en una libreta olvidada. Lo van a documentar y subir a GitHub. Así, desde la carrera, empezarán a construir un portafolio de trabajo real que respalde lo que saben hacer.
 
 ## Flujo de trabajo de la nueva propuesta
-### El trabajo previo (fuera del aula)
+### El trabajo previo (dentro y fuera del aula)
 **Preparación en clase**
 - Al inicio será una clase tradicional para tener un fundamento Teórico fuerte.
 - Se darán los conceptos básicos que les permitan entender a los alumnos lo que van a investigar.
