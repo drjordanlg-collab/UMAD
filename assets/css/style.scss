@@ -19,23 +19,29 @@ body {
   color: #333333;
 }
 
-h1 {
+/* Título principal estilo Ubuntu (para páginas y entradas) */
+section h1,
+.blog-post h1 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
+  font-size: 1.9rem;
   color: #ffffff;
   background-color: #300A24; /* Berenjena oscuro Ubuntu */
+  padding: 16px 24px;        /* Espacio interno para que luzca el fondo */
+  border-radius: 10px;       /* Corregido: sin la 'o' */
+  border-left: 6px solid #E95420; /* Detalle naranja Ubuntu */
   letter-spacing: -0.02em;
-  border-radious: 3px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 10px rgba(48, 10, 36, 0.15);
 }
 
 h2, h3, h4 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
-  color: #300A24; /* Berenjena oscuro Ubuntu */
+  color: #300A24;
   letter-spacing: -0.02em;
 }
 
-h1 { font-size: 2rem; }
 h3 { font-size: 1.35rem; margin-top: 1.8rem; }
 
 code, pre {
@@ -50,9 +56,17 @@ header {
   color: #F7F7F7;
   padding: 30px 25px;
   border-radius: 12px;
-  border-top: 5px solid #E95420; /* Acento naranja Ubuntu */
+  border-top: 5px solid #E95420;
   box-shadow: 0 8px 20px rgba(48, 10, 36, 0.2);
   box-sizing: border-box;
+}
+
+header h1 {
+  background-color: transparent;
+  padding: 0;
+  box-shadow: none;
+  border: none;
+  font-size: 1.8rem;
 }
 
 header h1 a,
@@ -107,7 +121,6 @@ table {
   box-shadow: 0 4px 12px rgba(48, 10, 36, 0.08);
 }
 
-/* Encabezado de la tabla a juego con la barra izquierda */
 th {
   background-color: #300A24;
   color: #ffffff;
@@ -117,24 +130,20 @@ th {
   border-bottom: 3px solid #E95420;
 }
 
-/* Celdas del cuerpo de la tabla */
 td {
   padding: 14px 16px;
   border-bottom: 1px solid #EAEAEA;
 }
 
-/* Color suave alternado en las filas (efecto cebra) */
 tbody tr:nth-child(even) {
   background-color: #FAF8F9;
 }
 
-/* Resaltado interactivo al pasar el mouse sobre una materia */
 tbody tr:hover {
   background-color: #F5EBF1;
   transition: background-color 0.2s ease;
 }
 
-/* Convierte los enlaces de la última columna en botones naranja Ubuntu */
 td:last-child a {
   display: inline-block;
   background-color: #E95420;
@@ -157,22 +166,14 @@ footer { display: none; }
 
 /* --- DISEÑO AUTOMÁTICO PARA ENTRADAS DE BLOG --- */
 .blog-post {
-  max-width: 740px;      /* Hace que el texto no se extienda por toda la pantalla */
-  margin: 40px auto;     /* Centra todo el contenido */
-  padding: 0 20px;
-
-  h1 {
-    color: #300A24;      /* Tu color Berenjena oscuro */
-    font-size: 2.2rem;
-    margin-bottom: 20px;
-  }
+  max-width: 740px;
+  margin: 20px auto;
 
   .entry-content {
-    font-size: 17.5px;
+    font-size: 17px;
     line-height: 1.8;
-    color: #333333;      /* Gris oscuro para que no canse la vista al leer */
+    color: #333333;
 
-    /* Si pones un enlace en tu texto, se pintará de color naranja Ubuntu */
     a {
       color: #E95420;    
       text-decoration: none;
