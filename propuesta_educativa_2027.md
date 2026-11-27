@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Cambio de Paradigmas en la Enseñanza de la Ingeniería"
+---
+
 # Cambio de Paradigmas en la Enseñanza de la Ingeniería <br> Propuesta educativa 2027
 ## Introducción
 Es muy fácil quejarse de que los alumnos ya no tienen la misma capacidad de reflexión y concentración en clase; y es cierto, pero, es una realidad que no podemos cambiar con quejas o con preocupación.
